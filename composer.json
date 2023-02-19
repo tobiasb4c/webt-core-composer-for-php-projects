@@ -1,0 +1,19 @@
+{
+    "name": "fn/webt-core-composer-for-php-projects",
+    "description": "A php project using composer",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Fn\\WebtCoreComposerForPhpProjects\\": "./src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tobias Nahler",
+            "email": "tobias.nahler@htl.rennweg.at"
+        }
+    ],
+    "require": {
+        "endroid/qr-code": "^4.7"
+    }
+}
